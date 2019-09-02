@@ -99,7 +99,7 @@ $(function(){
                 $(this).find('h3').text('CLICK ME!');
             },
             mouseleave:function(){
-                $(this).find('h3').text('CONTECT ME!');
+                $(this).find('h3').text('CONTACT ME!');
             }
        
     })
