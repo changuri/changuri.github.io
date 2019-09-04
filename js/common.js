@@ -63,7 +63,7 @@ $(function(){
     
     $('section article').on('mousewheel',function(e, delta){
         var i=$(this).index();                         
-        if(delta>1){
+        if(delta>0){
             if(i==0){ return false;}
             var prev=$(this).prev().offset().top;
             $('html, body').stop(true).animate({
@@ -71,7 +71,7 @@ $(function(){
             },function(){
                       
             })
-        }else if(delta<1){
+        }else if(delta<0){
             if(i==3){return false;}
             var next=$(this).next().offset().top;
             $('html, body').stop(true).animate({
