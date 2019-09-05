@@ -32,7 +32,7 @@ $(function(){
     })
 
     $(window).scroll(function(){
-        var scrollTop=$(this).scrollTop();  
+        var scrollTop=Math.ceil($(this).scrollTop());  
         var vh=$('article').height();
         var nowIndex=0;     
 
