@@ -123,7 +123,7 @@ nav.scroll .bar{
     position: absolute; top: 50%; transform: translateY(-50%); 
 }
 .imgArea img{
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50% );
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50% );
     width: 100%; transition: 0.5s;
   
 }
