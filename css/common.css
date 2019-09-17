@@ -130,8 +130,10 @@ nav.scroll .bar{
 .imgArea img:hover{
    width: 110%; 
 }
-.work-1 .workInfo{ right: 0px;}
+.work-1 .imgArea{ left: 0;}
 .work-2 .imgArea{ right: 0;}
+
+.work-1 .workInfo{ right: -100px;}
 .work-1 .workInfo.move{ right: 0; opacity: 1;}
 .work-2 .workInfo{ left: -100px;}
 .work-2 .workInfo.move{
