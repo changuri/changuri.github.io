@@ -173,7 +173,7 @@ nav.scroll .bar{
 .profile{background: url(../img/img-11.jpg) no-repeat; background-size: cover;
         height: 100vh; text-align: center; position: relative;
 }
-.personalInfo{position: absolute; top: 50%; transform: translateY(-50%);}
+.personalInfo{position: absolute; top:50%; transform: translateY(-50%);}
 .profile h2{ font-weight: bold; font-size: 30px;}
 
 .profile ul{
